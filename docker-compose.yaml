@@ -1,9 +1,9 @@
 version: '3.8'
 services:
-  ashuwebapp:
-    image: ashumobiweb:appv1
+  sharathwebapp:
+    image: sharathweb:appv1
     build: .
-    container_name: ashuwebc1
+    container_name: sharathwebc1
     ports:
-      - 1234:80 
-    restart: always 
+      - 2048:80
+    restart: always
